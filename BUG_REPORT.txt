@@ -1,0 +1,12 @@
+12-9-2021
+bug found =>
+BAGIAN ADMIN > PROFIL
+Masih terdapat bug di edit bg dan logo sekolah
+
+12-2-2024
+Solved bug => BAGIAN ADMIN > PROFIL : Masih terdapat bug di edit bg dan logo sekolah
+
+bug found => saat admin login session akan tercampur dengan session siswa, jadi harus logout dahulu salah satu
+
+11-04-2025
+BUG FOUND => Jumlah statistic (siswa, guru, soal) masih belum benar
