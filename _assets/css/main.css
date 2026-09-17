@@ -1,0 +1,104 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+}
+ 
+body{
+    background-color: whitesmoke;
+}
+
+
+
+label.opsi{
+    background-color: whitesmoke;
+    padding: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-align: center;
+}
+.ophov:hover{
+    background-color: rgba(0, 130, 252, 0.062);
+}
+
+#opsi1:checked ~ div label.opsiX1{
+    background-color: rgb(60, 155, 60);
+    color: white;
+}
+#opsi2:checked ~ div label.opsiX2{
+    background-color: rgb(60, 155, 60);
+    color: white;
+}
+#opsi3:checked ~ div label.opsiX3{
+    background-color: rgb(60, 155, 60);
+    color: white;
+}
+#opsi4:checked ~ div label.opsiX4{
+    background-color: rgb(60, 155, 60);
+    color: white;
+}
+#opsi5:checked ~ div label.opsiX5{
+    background-color: rgb(60, 155, 60);
+    color: white;
+}
+
+.listSoal{
+    width: 450px; 
+    bottom: -500px; 
+    left:0; 
+    right:0;
+    transition: 0.5s;
+}
+#cekBtnList:checked ~ div.listSoal{
+    bottom: 0;
+}
+
+#viewpdf{
+    position: absolute;
+    bottom: 0;
+    top: 56px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+.noSoalPdf{
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    width: 40px;
+    line-height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+.opsiSoalPdf{
+    background: white;
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+} 
+
+.checked{
+    background-color: rgb(60, 155, 60);
+    color: white;
+}
+
+.panelJwb {
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    z-index: 9999;
+    right: -30px;
+    top: 200px;
+    padding: 10px 10px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transform: rotate(270deg);
+    box-sizing: border-box;
+}
+
+.panelJwb:hover {
+    cursor: pointer;
+}
