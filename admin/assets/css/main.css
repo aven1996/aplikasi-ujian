@@ -1,0 +1,62 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.icon-eye{
+    opacity: 0.5;
+}
+.icon-eye:hover{
+    opacity: 1;
+}
+
+.img-home{
+    background-image: url("../img/profil_smk/smk.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-fan1{
+    animation: zoom 2s ease alternate infinite;
+}
+
+@keyframes zoom{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.icon-sm {
+    font-size: x-large;
+    filter: opacity(0.3);
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.icon-sm:hover{
+    filter: opacity(0.7);
+    cursor: pointer;
+    color: black;
+}
+
+.card-jur{
+    border:1px solid rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+
+.card-mapel{
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+.card-mapel:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
